@@ -1,0 +1,14 @@
+[
+{"id":1, "nombre":"tabla1","descripcion":"longboard 62", "imagen":"imagenes/Longboard-salmon.jpeg", "precio":"30.000", "stock":"10"},
+{"id":2, "nombre":"tabla2","descripcion":"longboard 62", "imagen":"imagenes/tabla-retro.jpg", "precio":"25.000", "stock":"10"},
+{"id":3, "nombre":"tabla3","descripcion":"longboard 62", "imagen":"imagenes/short-board.jpg", "precio":"20.000", "stock":"10"},
+{"id":4, "nombre":"camisa1","descripcion":"longboard 62", "imagen":"imagenes/camisa1.jpg", "precio":"17.000", "stock":"10"},
+{"id":5, "nombre":"camisa2","descripcion":"longboard 62", "imagen":"imagenes/camisa2.jpg", "precio":"17.000", "stock":"10"},
+{"id":6, "nombre":"camisa3","descripcion":"longboard 62", "imagen":"imagenes/camisa3.jpg", "precio":"17.000", "stock":"10"},
+{"id":7, "nombre":"remera1","descripcion":"longboard 62", "imagen":"imagenes/remera1.jpg", "precio":"10.000", "stock":"10"},
+{"id":8, "nombre":"remera2","descripcion":"longboard 62", "imagen":"imagenes/remera2.jpg.jpeg", "precio":"10.000", "stock":"10"},
+{"id":9, "nombre":"remera3","descripcion":"longboard 62", "imagen":"imagenes/remera3.jpg", "precio":"10.000", "stock":"10"},
+{"id":10, "nombre":"bermuda1","descripcion":"longboard 62", "imagen":"imagenes/bermuda1.jpg", "precio":"15.000", "stock":"10"},
+{"id":11, "nombre":"bermuda2","descripcion":"longboard 62", "imagen":"imagenes/bermuda2.jpg", "precio":"15.000", "stock":"10"},
+{"id":12, "nombre":"bermuda3","descripcion":"longboard 62", "imagen":"imagenes/bermuda3.jpg", "precio":"15.000", "stock":"10"}
+]
