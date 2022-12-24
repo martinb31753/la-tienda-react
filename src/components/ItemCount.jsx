@@ -1,37 +1,38 @@
 import React from "react";
 import { useState } from "react";
 
-const ItemCount = ({stockItems}) => {
+const ItemCount = ({ stockItems }) => {
     const [contador, setContador] = useState(1);
-    const[stock , setStock] = useState (stockItems);
+    const [stock, setStock] = useState(stockItems);
 
-    const sumarStock = () =>{
-        if (contador < stock){
-        setContador (contador+1);
+    const sumarStock = () => {
+        if (contador < stock) {
+            setContador(contador + 1);
         }
 
     }
 
-    const restarStock = () =>{
-        if(contador > 1){
-        setContador (contador-1);
+    const restarStock = () => {
+        if (contador > 1) {
+            setContador(contador - 1);
         }
 
     }
-    
+
     const onAdd = () => {
-        if((stock > 0) && (contador <= stock)){
-        console.log ("Agregaste:" +contador+ " Productos al carrito ")
-        setStock (stock - contador);
-        setContador(0)
-        }        
+        if (contador <= stock) {
+            setStock(stock - contador);
+            setContador(0)
+            console.log("Agregaste:" + contador + " Productos al carrito ")
+
+        }
 
     }
 
     return (
-        <div className="container">
+        <div className="container text-center">
             <div className="row mb-3">
-                <div className="col-md-2">
+                <div className="col-md-12">
                     <div className="btn-group" role="group" aria-label="Basic outlined example">
                         <button type="button" className="btn btn-outline-primary" onClick={restarStock}>-</button>
                         <button type="button" className="btn btn-outline-primary">{contador}</button>
@@ -42,8 +43,8 @@ const ItemCount = ({stockItems}) => {
 
             </div>
             <div className="row">
-                <div className="col-md-2">
-                <button type="button" className="btn btn-outline-primary" onClick={onAdd}>Agregar al carrito</button>   
+                <div className="col-md-12">
+                    <button type="button" className="btn btn-outline-primary" onClick={onAdd}>Agregar al carrito</button>
 
                 </div>
             </div>
