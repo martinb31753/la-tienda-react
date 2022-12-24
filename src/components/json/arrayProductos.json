@@ -1,14 +1,14 @@
 [
-{"id":1, "nombre":"LongBoard Clasico","descripcion":"Tabla larga clásica con buen volumen espesor y ancho para olas chicas sin fuerza.", "imagen":"imagenes/Longboard-salmon.jpeg", "precio":"$30.000", "stock":"10"},
-{"id":2, "nombre":"Tabla Retro","descripcion":"6'0 x 19 x 2 5/8 Single Fin Bonzer(Una Quilla Fija con estabilizadores)", "imagen":"imagenes/tabla-retro.jpg", "precio":"$25.000", "stock":"10"},
-{"id":3, "nombre":"Shortboard","descripcion":"shortboard 6 4 x 19 x 2 1/4 S0002 X9901", "imagen":"imagenes/short-board.jpg", "precio":"$20.000", "stock":"10"},
-{"id":4, "nombre":"Camisa Hawai","descripcion":"camisa Rip Curl Hawai Floreada", "imagen":"imagenes/camisa1.jpg", "precio":"$17.000", "stock":"10"},
-{"id":5, "nombre":"Camisa Shock waves","descripcion":"Camisa manga corta Rip Curl Shock Waves", "imagen":"imagenes/camisa2.jpg", "precio":"$17.000", "stock":"10"},
-{"id":6, "nombre":"Camisa Tubeheads","descripcion":"Camisa  Rip Curl Tubeheads en algodon diferenciado fullprin", "imagen":"imagenes/camisa3.jpg", "precio":"$17.000", "stock":"10"},
-{"id":7, "nombre":"Remera Logo Surf","descripcion":"nuevos diseños remera Camaron Brujo y colección productos con calidad garantizada hecho en latinoamérica Material: jersey 24/1 corte: surfero", "imagen":"imagenes/remera1.jpg", "precio":"$10.000", "stock":"10"},
-{"id":8, "nombre":"Remera oceánica batik","descripcion":"nuevos diseños remera Camaron Brujo y colección productos con calidad garantizada hecho en latinoamérica Material: jersey 24/1 corte: surfero", "imagen":"imagenes/remera2.jpg", "precio":"$10.000", "stock":"10"},
-{"id":9, "nombre":"Remera Fuego","descripcion":"nuevos diseños remera Camaron Brujo y colección productos con calidad garantizada hecho en latinoamérica Material: jersey 24/1 corte: surfero", "imagen":"imagenes/remera3.jpg", "precio":"$10.000", "stock":"10"},
-{"id":10, "nombre":"Bermuda China","descripcion":"BERMUDA RIP CURL WA CHINO MICROTIMES 18 01577G2 HOMBRE", "imagen":"imagenes/bermuda1.jpg", "precio":"$15.000", "stock":"10"},
-{"id":11, "nombre":"Bermuda Trail","descripcion":"Bermuda Rip Curl Trail 20. Relaxed fit. Largo lateral 20” (52,5 cm). Lavado Stone", "imagen":"imagenes/bermuda2.jpg", "precio":"$15.000", "stock":"10"},
-{"id":12, "nombre":"Bermuda Trail out","descripcion":"Bermuda Rip Curl Trail 20. Relaxed fit. Largo lateral 20” (52,5 cm). Lavado Stone", "imagen":"imagenes/bermuda3.jpg", "precio":"$15.000", "stock":"10"}
+{"id":1, "nombre":"LongBoard Clasico","descripcion":"Tabla larga clásica con buen volumen espesor y ancho para olas chicas sin fuerza.", "imagen":"../imagenes/Longboard-salmon.jpeg", "precio":"$30.000", "stock":"10","categoria":"Tablas"},
+{"id":2, "nombre":"Tabla Retro","descripcion":"6'0 x 19 x 2 5/8 Single Fin Bonzer(Una Quilla Fija con estabilizadores)", "imagen":"../imagenes/tabla-retro.jpg", "precio":"$25.000", "stock":"10","categoria":"Tablas"},
+{"id":3, "nombre":"Shortboard","descripcion":"shortboard 6 4 x 19 x 2 1/4 S0002 X9901", "imagen":"../imagenes/short-board.jpg", "precio":"$20.000", "stock":"10","categoria":"Tablas"},
+{"id":4, "nombre":"Camisa Hawai","descripcion":"camisa Rip Curl Hawai Floreada", "imagen":"../imagenes/camisa1.jpg", "precio":"$17.000", "stock":"10","categoria":"Camisas"},
+{"id":5, "nombre":"Camisa Shock waves","descripcion":"Camisa manga corta Rip Curl Shock Waves", "imagen":"../imagenes/camisa2.jpg", "precio":"$17.000", "stock":"10","categoria":"Camisas"},
+{"id":6, "nombre":"Camisa Tubeheads","descripcion":"Camisa  Rip Curl Tubeheads en algodon diferenciado fullprin", "imagen":"../imagenes/camisa3.jpg", "precio":"$17.000", "stock":"10","categoria":"Camisas"},
+{"id":7, "nombre":"Remera Logo Surf","descripcion":"nuevos diseños remera Camaron Brujo y colección productos con calidad garantizada hecho en latinoamérica Material: jersey 24/1 corte: surfero", "imagen":"../imagenes/remera1.jpg", "precio":"$10.000", "stock":"10","categoria":"Remeras"},
+{"id":8, "nombre":"Remera oceánica batik","descripcion":"nuevos diseños remera Camaron Brujo y colección productos con calidad garantizada hecho en latinoamérica Material: jersey 24/1 corte: surfero", "imagen":"../imagenes/remera2.jpg", "precio":"$10.000", "stock":"10","categoria":"Remeras"},
+{"id":9, "nombre":"Remera Fuego","descripcion":"nuevos diseños remera Camaron Brujo y colección productos con calidad garantizada hecho en latinoamérica Material: jersey 24/1 corte: surfero", "imagen":"../imagenes/remera3.jpg", "precio":"$10.000", "stock":"10","categoria":"Remeras"},
+{"id":10, "nombre":"Bermuda China","descripcion":"BERMUDA RIP CURL WA CHINO MICROTIMES 18 01577G2 HOMBRE", "imagen":"../imagenes/bermuda1.jpg", "precio":"$15.000", "stock":"10","categoria":"Bermudas"},
+{"id":11, "nombre":"Bermuda Trail","descripcion":"Bermuda Rip Curl Trail 20. Relaxed fit. Largo lateral 20” (52,5 cm). Lavado Stone", "imagen":"../imagenes/bermuda2.jpg", "precio":"$15.000", "stock":"10","categoria":"Bermudas"},
+{"id":12, "nombre":"Bermuda Trail out","descripcion":"Bermuda Rip Curl Trail 20. Relaxed fit. Largo lateral 20” (52,5 cm). Lavado Stone", "imagen":"../imagenes/bermuda3.jpg", "precio":"$15.000", "stock":"10","categoria":"Bermudas"}
 ]
