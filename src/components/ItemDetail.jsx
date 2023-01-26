@@ -1,12 +1,15 @@
 
 import React from "react";
-import { useState} from "react";
+import { useContext} from "react";
 import ItemCount from "./ItemCount";
+import { CartContext } from "./context/CartContext";
 
 const ItemDetail = ({item}) => {
-    const[stockItem, setStoxkItem]= useState(0);
+    const {addItem}= useContext(CartContext);
+    
     const onAdd = (quantity) =>{
-        setStoxkItem(quantity);
+        addItem (item,quantity)
+       
     }
 
     return(
@@ -15,7 +18,7 @@ const ItemDetail = ({item}) => {
                 <img src={item.imagen} className="img-fluid" alt={item.nombre} />
                 <h1>{item.nombre}</h1>
                 <p>{item.descripcion}</p>
-                <p><b>{item.precio}</b></p>
+                <p><b>${item.precio}</b></p>
                 <ItemCount stock={item.stock} onAdd={onAdd}/>
             </div>
             

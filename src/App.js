@@ -4,9 +4,11 @@ import Error404 from "./components/Error404";
 import ItemListContainer from "./components/ItemListContainer";
 import ItemDetailContainer from "./components/ItemDetailContainer";
 import NavBar from "./components/NavBar";
+import CartContextProvaider from "./components/context/CartContext";
 
 function App(){
 return(
+  <CartContextProvaider>
   <div>
     <BrowserRouter>
     <NavBar/>
@@ -21,6 +23,7 @@ return(
     </BrowserRouter>
     
   </div>
+  </CartContextProvaider>
 );
 }
 export default App;
