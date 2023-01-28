@@ -3,14 +3,15 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { useParams } from "react-router-dom";
 import ItemDetail from "./ItemDetail";
-import arrayProductos from "./json/arrayProductos.json";
+//import arrayProductos from "./json/arrayProductos.json";
+import { doc, getDoc, getFirestore } from "firebase/firestore";
 
 const ItemDetailContainer = () => {
     const[item,SetItem] = useState({});
     const{id} = useParams();
 
 
-    useEffect(() => {
+   /* useEffect(() => {
         const promesa = new Promise ((resolve) => {
             
             setTimeout(() => {
@@ -25,7 +26,17 @@ const ItemDetailContainer = () => {
         })
         
 
-    }, [id]);
+    }, [id]);*/
+
+    useEffect(() => {
+        const db = getFirestore();
+        const documento = doc(db, "items", id);
+        getDoc(documento).then((snapShot) => {
+            if (snapShot.exists()) {
+                SetItem({id:snapShot.id, ...snapShot.data()});
+            } 
+        });
+    }, []);
 
     return(
        <div className="container">
