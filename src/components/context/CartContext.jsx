@@ -42,9 +42,9 @@ const CartContextProvaider = ({children}) => {
         return Cart.reduce((total, item) => total += item.quantity * item.precio, 0);
     }    
     return(
-        <CartContextProvaider value ={{Cart,sumTotal,cartTotal, addItem,removeItem,clear}}>
+        <CartContext.Provider value ={{Cart,sumTotal,cartTotal, addItem,removeItem,clear}}>
            {children}
-        </CartContextProvaider>
+        </CartContext.Provider>
     )
 }
 
